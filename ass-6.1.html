@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+  <meta charset="utf-8">
+  <title>salaries </title>
+  </head>
+  <body>
+  <script type="text/javascript">
+	var x = prompt("enter the salary");                                                 /* enter the input salary*/
+    var h = prompt("enter the hours");                                                  /*enter the input no of hrs*/
+		if( x >= 15000 && h > 10) 
+		{
+		  var y= x * 0.1;                                                                       /*10 % bonus added*/
+		  var z= parseInt(x) + parseInt(y);
+		  document.write(+z);
+		}
+		else{
+	       var a=x * 0.05;                                                                          /*  5% bonus added*/
+		   var z= parseInt(x) + parseInt(a);
+		   document.write(+z);
+		}
+	    console.log(+z);
+	</script>
+   </body>
+</html>
